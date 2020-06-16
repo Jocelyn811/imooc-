@@ -1,0 +1,419 @@
+.body{
+    background-color: rgb(162, 200, 209);
+}
+/*顶部*/
+.box1{
+    height:70px;
+    
+
+
+ }
+ .boxx0{
+     float:left;
+     width:150px;
+     height:60px;
+     
+ }
+ .boxx1{
+     margin:15px 10px 5px 50px;
+     height:60px;
+     padding:5px 10px;
+     
+ }
+ /*中间部分菜单及广告位*/
+ .box2{
+     width:80%;
+     height:350px;
+     margin-left:150px;
+     margin-top:10px;
+     padding-top: 30px;
+     padding-left:10px;
+     border:1px,solid;
+     border-radius:10px;
+     background-color: rgb(31, 32, 32);
+ }
+     
+ 
+ /*中间部分的左边*/
+ .box2x1{
+     width:200px;
+     margin:20px;
+ }   
+ .box2x1x0{
+     float:left;
+
+ }
+ .box2x1x1{
+     float:right;
+     position:relative;
+     background-color: rgb(100,100,100);
+
+ }
+.box2x1x1:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+
+}
+.box2x1x2{
+    float:left;
+}
+.box2x1x3{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x3:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+.box2x1x4{
+    float:left;
+}
+.box2x1x5{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x5:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+.box2x1x6{
+    float:left;
+}
+.box2x1x7{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x7:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+.box2x1x8{
+    float:left;
+}
+.box2x1x9{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x9:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+.box2x1x10{
+    float:left;
+}
+.box2x1x11{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x11:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+.box2x1x12{
+    float:left;
+}
+.box2x1x13{
+    
+    float:right;
+    position:relative;
+
+}
+.box2x1x13:after{
+    position:absolute;
+    width:0px;
+    height:0px;
+    content:" ";
+    border-right: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-left:10px solid rgb(143, 139, 139);
+    border-bottom:10px solid transparent;
+
+}
+/*零基础就业部分*/
+.box3xx{
+    margin-top:30px;
+    margin-left:70px;
+    width:500px;
+}
+.box3x0{
+    margin-left: 70px;
+    width:220px;
+    height:80px;
+    border-radius: 10px;
+    background-color:  rgb(229, 232, 233);
+    display:inline-block;
+
+}
+.box3x1{
+    margin-left:15px;
+    width:220px;
+    height:80px;
+    border-radius: 10px;
+    background-color:  rgb(229, 232, 233);
+    display:inline-block;
+}
+.box3x2{
+    margin-left:15px;
+    width:220px;
+    height:80px;
+    border-radius: 10px;
+    background-color: rgb(229, 232, 233);
+    display:inline-block;
+}
+.box3x3{
+    margin-left:15px;
+    width:220px;
+    height:80px;
+    border-radius: 10px;
+    background-color:  rgb(229, 232, 233);
+    display:inline-block;
+}
+.box3x4{
+    margin-left:15px;
+    width:220px;
+    height:80px;
+    border-radius: 10px;
+    background-color:  rgb(229, 232, 233);
+    display:inline-block;
+
+
+}
+/*职场提升部分*/
+.box4xx{
+    margin-top:30px;
+    margin-left:70px;
+    width:500px;
+    
+}
+.box4x0{
+    width:270px;
+    height:100px;
+    margin-left:70px;
+    border-radius: 10px;
+    display:inline-block;
+
+
+
+}
+.box4x1{
+    width:270px;
+    height:100px;
+    border-radius: 10px;
+    display:inline-block;
+    margin-left:20px;
+}
+.box4x2{
+    width:270px;
+    height:100px;
+    border-radius: 10px;
+    display:inline-block;
+    margin-left:20px;
+}
+.box4x3{
+    width:270px;
+    height:100px;
+    border-radius: 10px;
+    display:inline-block;
+    margin-left:20px;
+}
+/*新上好课部分*/
+.box5{
+    height:700px;
+    
+}
+.box5x0{
+    margin-left:70px;
+    margin-top:70px;
+    width:100px;
+}
+.box5x1{
+    width:270px;
+    height:300px;
+    margin-left:70px;
+    float:left;
+   
+}
+.box5x2{
+    width:270px;
+    height:300px;
+    margin-left:20px;
+    float:left;
+    
+    
+}
+
+.box5x3{
+    float:left;
+    width:270px;
+    height:300px;
+    margin-left:20px;
+   
+}
+.box5x4{
+    float:left;
+    width:270px;
+    height:300px;
+    margin-left:20px;
+   
+}
+.box5x5{
+    float:left;
+    width:270px;
+    height:300px;
+    margin-left:70px;
+    
+   
+}
+.box5x6{
+    float:left;
+    width:270px;
+    height:300px;
+    margin-left:20px;
+   
+    
+}
+.box5x7{
+    float:left;
+    width:270px;
+    height:300px;
+    margin-left:20px;
+    
+
+}
+.box5x8{
+    width:270px;
+    height:300px;
+    margin-left:20px;
+    float:left;
+
+}
+/*学习路线*/
+.box6{
+    width:1300px;
+    height:1000px;
+    
+}
+.menu1{
+    float:left;
+    height:70px;
+    width:150px;
+    margin-left: 70px;
+    
+    
+}
+.menu{
+    float:left;
+    width:600px;
+    height:50px;
+    margin-top: 15px;
+    
+}
+.menu>ul{
+    list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.menu li{
+    float:left;
+    
+    text-align:center;
+    margin-left:5px;
+}
+/*
+.menu a:link,a:visited
+{
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#98bf21;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.menu a:hover,a:active
+{
+	background-color:#7A991A;
+}*/
+.box6x0{
+    float:left;
+    height:800px;
+    margin-top:100px;
+    margin-left:70px;
+   
+
+}
+.box{
+    float:left;
+    width:550px;
+    height:220px;
+    
+
+}
+.boxx3{
+    float:left;
+   
+    width:170px;
+    height:170px;
+    
+
+}
+.boxx2{
+    float:left;
+    width:330px;
+    height:200px;
+    
+}
