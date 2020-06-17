@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>慕课网</title>
-    <link  href="base.css" rel="stylesheet" type="text/css"/>
+    <link  href="./base.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="box1"><!--慕课网顶部-->
-         <header>
-             <form>
-                
-                    <div class="boxx0" >
-                        <img src="https://www.imooc.com/static/img/index/logo-recommended.png"  width=100px height=50px>
-                    </div> 
-                    <div class="boxx1">
-                        <span><a href="https://www.imooc.com/course/list">免费教程&nbsp;&nbsp;</a></span>
-                        <span><a href="https://coding.imooc.com/">&nbsp;&nbsp;实战课程&nbsp;&nbsp;</a></span>
-                        <span><a href="https://class.imooc.com/">&nbsp;&nbsp;金职位&nbsp;&nbsp;</a></span>
-                        <span><a href="https://class.imooc.com/">&nbsp;&nbsp;wiki&nbsp;&nbsp;</a></span>
-                        <span><a href="https://www.imooc.com/read">&nbsp;&nbsp;专栏&nbsp;&nbsp;</a></span>
-                        <span><a href="https://www.imooc.com/article">&nbsp;&nbsp;手记</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text" class="search" placeholder="请输入关键字" width=150px>
-                        <span><a href="https://www.imooc.com/mobile/app">&nbsp;&nbsp;下载app</a></span>
-                        <span><a href="https://order.imooc.com/pay/cart">&nbsp;&nbsp;购物车</a></span>
-                        <span><a href="https://www.imooc.com/u/index/allcourses">&nbsp;&nbsp;我的课程</a></span>
-                    </div> 
-
-             </form>
-
-         </header>
-    </div>
+    <header class="navbar">        
+        <img class="icon" src="https://www.imooc.com/static/img/index/logo-recommended.png"> 
+        <ul class="navbar-item">
+            <li><a href="https://www.imooc.com/course/list">免费教程</a></li>
+            <li><a href="https://coding.imooc.com/">实战课程</a></li>
+            <li><a href="https://class.imooc.com/">金职位</a></li>
+            <li><a href="https://class.imooc.com/">wiki</a></li>
+            <li><a href="https://www.imooc.com/read">专栏</a></li>
+            <li><a href="https://www.imooc.com/article">手记</a></li>
+        </ul>
+        <div class="search-wrap">
+            <div class="search-area">
+                <input type="text" class="search" placeholder="请输入关键字..." width=150px>
+                <div class="hot-tags">
+                    <span>Vue</span>
+                    <span>Python</span>
+                </div>
+            </div>
+            <img class="search-icon" src="imgs/icon/search.png" ></img>
+        </div>
+        <ul class="navbar-item navbar-right">
+            <li><a href="https://www.imooc.com/mobile/app">下载app</a></li>
+            <li><a href="https://order.imooc.com/pay/cart">购物车</a></li>
+            <li><a href="https://www.imooc.com/u/index/allcourses">我的课程</a></li>
+        </ul> 
+    </header>
     <div class="box2"><!--中间部分以及广告-->
         <div class="box2x1">
           <aside>
