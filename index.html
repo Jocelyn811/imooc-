@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>慕课网</title>
-    <link  href="base.css" rel="stylesheet" type="text/css"/>
+    <link  href="./base.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="box1"><!--慕课网顶部-->
-         <header>
-             <form>
-                
-                    <div class="boxx0" >
-                        <img src="https://www.imooc.com/static/img/index/logo-recommended.png"  width=100px height=50px>
-                    </div> 
-                    <div class="boxx1">
-                        <span><a href="https://www.imooc.com/course/list">免费教程&nbsp;&nbsp;</a></span>
-                        <span><a href="https://coding.imooc.com/">&nbsp;&nbsp;实战课程&nbsp;&nbsp;</a></span>
-                        <span><a href="https://class.imooc.com/">&nbsp;&nbsp;金职位&nbsp;&nbsp;</a></span>
-                        <span><a href="https://class.imooc.com/">&nbsp;&nbsp;wiki&nbsp;&nbsp;</a></span>
-                        <span><a href="https://www.imooc.com/read">&nbsp;&nbsp;专栏&nbsp;&nbsp;</a></span>
-                        <span><a href="https://www.imooc.com/article">&nbsp;&nbsp;手记</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text" class="search" placeholder="请输入关键字" width=150px>
-                        <span><a href="https://www.imooc.com/mobile/app">&nbsp;&nbsp;下载app</a></span>
-                        <span><a href="https://order.imooc.com/pay/cart">&nbsp;&nbsp;购物车</a></span>
-                        <span><a href="https://www.imooc.com/u/index/allcourses">&nbsp;&nbsp;我的课程</a></span>
-                    </div> 
-
-             </form>
-
-         </header>
-    </div>
+    <header class="navbar">        
+        <img class="icon" src="https://www.imooc.com/static/img/index/logo-recommended.png"> 
+        <ul class="navbar-item">
+            <li><a href="https://www.imooc.com/course/list">免费教程</a></li>
+            <li><a href="https://coding.imooc.com/">实战课程</a></li>
+            <li><a href="https://class.imooc.com/">金职位</a></li>
+            <li><a href="https://class.imooc.com/">wiki</a></li>
+            <li><a href="https://www.imooc.com/read">专栏</a></li>
+            <li><a href="https://www.imooc.com/article">手记</a></li>
+        </ul>
+        <div class="search-wrap">
+            <div class="search-area">
+                <input type="text" class="search" placeholder="请输入关键字..." width=150px>
+                <div class="hot-tags">
+                    <span>Vue</span>
+                    <span>Python</span>
+                </div>
+            </div>
+            <img class="search-icon" src="imgs/icon/search.png" ></img><!--搜索框里的搜索符号（放大镜）-->
+        </div>
+        <ul class="navbar-item navbar-right">
+            <li><a href="https://www.imooc.com/mobile/app">下载app</a></li>
+            <li><a href="https://order.imooc.com/pay/cart">购物车</a></li>
+            <li><a href="https://www.imooc.com/u/index/allcourses">我的课程</a></li>
+        </ul> 
+    </header>
     <div class="box2"><!--中间部分以及广告-->
         <div class="box2x1">
           <aside>
@@ -216,6 +218,7 @@
     </div>
 </div>
 <!--学习路线-->
+
     <div>
         <div class="box6">
         <div class="menu-container">
@@ -225,13 +228,13 @@
             <div class="menu">
                 <ul>
                     <li>
-                        <a >热门</a>
+                        <a href="#box6x0">热门</a>
                     </li>
                     <li>
-                        <a>前端</a>
+                        <a href="front end">前端</a>
                     </li>
                     <li>
-                        <a>后端</a>
+                        <a href="">后端</a>
                     </li>
                     <li>
                         <a>移动端</a>
@@ -251,7 +254,7 @@
                 </ul>
             </div>
         </div>
-            <div class="box6x0">
+            <div id="box6x0">
                 <div class="box box6x0x1">
                     <a href="https://coding.imooc.com/learningpath/route?mc_marking=e1d9f7b53647cb62eaf73388bb97f0f4&mc_channel=syxxlx&pathId=6">
                     <div class="boxx3">
@@ -336,7 +339,241 @@
             
         </div>
     </div>
-    
+ <!--
+    <div id="front end">
+        <div class=" front classify1">
+            <a href="https://coding.imooc.com/learningpath/route?mc_marking=e1d9f7b53647cb62eaf73388bb97f0f4&mc_channel=syxxlx&pathId=31">
+            <div class="picture classify1">
+                <img src="https://img4.mukewang.com/szimg/5da9a00d09eeecba01400140-140-140.png" style="width:150px;height:150px;border-radius: 6px;">
+            </div>
+            <div class="text classify1">
+                <h4>微信小程序从0基础到精通</h4>
+                <p style="font-size: small;">
+                    一站式掌握小程序生态，打造站内零基础精通小程序的最佳路径
+                </p>
+
+            </div>
+            </a>
+        </div>
+        <div class=" front classify2">
+            <a href="https://coding.imooc.com/learningpath/route?mc_marking=e1d9f7b53647cb62eaf73388bb97f0f4&mc_channel=syxxlx&pathId=27">
+
+            
+            <div class="picture classify2">
+                <img src="https://img3.mukewang.com/szimg/5da92726082156e501400140-140-140.jpg" style="width:150px;height:150px;border-radius: 6px;">
+            </div>
+            <div class="text classify2">
+                <h4>前端面试求值跳槽通关路线</h4>
+                <p style="font-size: small;">路线伴随Web前端工程师一路成长，彻底搞懂不同阶段的面试重点，高效拿下offer。</p>
+            </div>
+            </a>
+        </div>
+        <div class=" front classify3">
+            <div class="picture classify3">
+                <img src="https://img2.mukewang.com/szimg/5da13891095e973101400140-140-140.png" style="width:150px;height:150px;border-radius: 6px;">
+
+            </div>
+            <div class="text classify3">
+                <h4>Node.js零基础从入门到玩转</h4>
+                <p style="font-size: small;">本路线从Node.js基础到热门框架应用。从理解到实战一步到位。</p>
+            </div>
+
+        </div>
+        <div class=" front classify4">
+            <div class="picture classify4">
+                <img src="https://img2.mukewang.com/szimg/5db92a1a080f03a301400140-140-140.jpg"  style="width:150px;height:150px;border-radius: 6px;">
+            </div>
+            <div class="text classify4">
+                <h4>Vue.js从入门到全栈开发</h4>
+                <p style="font-size: small;">优秀的前端工程师都要掌握一门后端语言，从Vue到node，前后端通吃，提高前端工程师的竞争力。</p>
+            </div>
+        </div>
+        <div class=" front classify5">
+            <a>
+                <div class="picture classify5">
+                    <img src="https://img3.mukewang.com/szimg/5d8b21f2088cf47501400140-140-140.jpg"  style="width:150px;height:150px;border-radius: 6px;">
+                </div>
+                <div class="text classify5">
+                    <h4>Vue.js从入门到精通</h4>
+                    <p style="font-size: small;">路线专为想学Vue却无从下手的人群设计，以实际项目为例，逐层深入，学通Vue。</p>
+                </div>
+            </a>
+        </div>
+        <div class=" front classify6">
+            <a>
+                <div class="picture classify6">
+                    <img src="https://img3.mukewang.com/szimg/5db92a5a082dd8df01400140-140-140.jpg"  style="width:150px;height:150px;border-radius: 6px;">
+                </div>
+                <div class="text classity6">
+                    <h4>React.js框架从零到全栈开发</h4>
+                    <p style="font-size: small;">从React.js基础入手，学习全站技能，上手全栈项目，路线清晰，不走弯路。</p>
+
+                </div>
+            </a>
+        </div>
+-->
+<!--热门课堂-->
+    <div class="hot-whole">
+        <div class="hot-menu-container">
+            <div class="hot-text">
+                <div class="hot-text1">
+                    <h2>热门课程</h2>
+                </div>
+                <div class="hot-img">
+                    <img>
+                </div>
+            </div>
+            <div class="hot-menu">
+                <ul>
+                    <li>实战课程</li>
+                    <li>免费课程</li>
+                </ul>
+            </div>
+        </div>
+            <div class="practice-course">
+                <div class=" practice classify1">
+                    <div class="practice-picture classify1">
+                        <img src="https://img2.mukewang.com/szimg/59b8a486000107fb05400300-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify1">
+                        <h4>
+                            全面系统Python3.8入门+进阶（程序员必备第二语言）
+                        </h4>
+                    </div>
+                </div>
+                <div class="practice classify2">
+                    <div class="practice-picture classify2">
+                        <img src="https://img2.mukewang.com/szimg/5e3cfea008e9a61b06000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify2">
+                        <h4>前端框架埃及项目面试&nbsp;聚焦Vue/React/Webpack</h4>
+                    </div>
+                </div> 
+                <div class="practice classify3">
+                    <div class="practice-picture classify3">
+                        <img src="https://img4.mukewang.com/szimg/5ac2dfe100014a9005400300-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify3">
+                        <h4>Vue2.5-2.6-3.0 开发去哪儿网App从零基础入门到实战项目开发</h4>
+                    </div>
+                </div>
+                <div class="practice classify4">
+                    <div class="practice-picture classify4">
+                        <img src="https://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify4">
+                        <h4>编程必备基础 计算机组成原理+操作系统+计算机网络</h4>
+                    </div>
+                </div>
+                <div class="practice classify5">
+                    <div class="practice-picture classify5">
+                        <img src="https://img3.mukewang.com/szimg/5ea0118b0948c90a12000676-360-202.png" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify5">
+                        <h4>（毕设项目）Vue+Go前端后端一体化 企业级微服务网关项目</h4>
+                    </div>
+                </div>
+                <div class="practice classify6">
+                    <div class="practice-picture classify6">
+                        <img src="https://img2.mukewang.com/szimg/5ad05dc00001eae705400300-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify6">
+                        <h4>玩转算法系列--数据结构精讲 更适合0算法基础入门到进阶（java版）</h4>
+                    </div>
+                </div>
+                <div class="practice classify7">
+                    <div class="practice-picture classify7">
+                        <img src="https://img3.mukewang.com/szimg/5e98339809ac343012000676-360-202.png"style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify7">
+                        <h4>uni-app入门到实战 以项目为导向掌握完整开发流程</h4>
+                    </div>
+                </div>
+                <div class="practice classify8">
+                    <div class="practice-picture classify8">
+                        <img src="https://img2.mukewang.com/szimg/5dc9047a09bae31e12000676-360-202.png" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="practice-text classify8">
+                        <h4>Vue Element+Node.js开发企业通用管理后台系统</h4>
+                    </div>
+                </div>
+            </div>
+<!--
+            <div class="free-course">
+                <div class=" free classify1">
+                    <div class="free-picture classify1">
+                        <img src="https://img2.mukewang.com/57035ff200014b8a06000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify1">
+                        <h4>
+                            Java入门第一季
+                        </h4>
+                    </div>
+                </div>
+                <div class="free classify2">
+                    <div class="free-picture classify2">
+                        <img src="https://img1.mukewang.com/540e57300001d6d906000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify2">
+                        <h4>初识Python</h4>
+                    </div>
+                </div> 
+                <div class="free classify3">
+                    <div class="free-picture classify3">
+                        <img src="https://img3.mukewang.com/5c21e60d0822d58e06000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify3">
+                        <h4>3小时速成 Vue2.x核心技术</h4>
+                    </div>
+                </div>
+                <div class="free classify4">
+                    <div class="free-picture classify4">
+                        <img src="https://img.mukewang.com/5c19b3060001e4fd06000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify4">
+                        <h4>Java高并发之魂：synchronized深度解析</h4>
+                    </div>
+                </div>
+                <div class="free classify5">
+                    <div class="free-picture classify5">
+                        <img src="https://img4.mukewang.com/53d068840001a89906000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify5">
+                        <h4>PS大神通关教程</h4>
+                    </div>
+                </div>
+                <div class="free classify6">
+                    <div class="free-picture classify6">
+                        <img src="https://img3.mukewang.com/5c60f2e80984689c05400300-360-202.png" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify6">
+                        <h4>学习软件测试的进阶之路</h4>
+                    </div>
+                </div>
+                <div class="free classify7">
+                    <div class="free-picture classify7">
+                        <img src="https://img4.mukewang.com/5c17445b0001fd8d05400300-360-202.jpg"style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify7">
+                        <h4>角色动画</h4>
+                    </div>
+                </div>
+                <div class="free classify8">
+                    <div class="free-picture classify8">
+                        <img src="https://img4.mukewang.com/5bfe54bd000131e306000338-360-202.jpg" style="width:270px;height:150px;border-radius: 8px;">
+                    </div>
+                    <div class="free-text classify8">
+                        <h4>SpringBoot 构建电商基础秒杀项目</h4>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+
+        
+
+    </div>
 
 </body>
 </html>
