@@ -266,31 +266,53 @@ ul{
 
 }
 /*零基础就业部分*/
-.box3xx{
-    margin-top:30px;
+.zero-base{
+    width:100vm;
+    height:150px;
+   
+    margin-top: 10px;
+}
+.zero-base-menu{
+    margin-top:10px;
     margin-left:70px;
     width:500px;
 }
-.box3x0{
+.zero-base-classify{
+    width:1200px;
+    height:200px;
     margin-left: 70px;
+    
+}
+.box3{
+    float:left;
     width:220px;
+    height:80px;
+    border-radius: 7px;
+    background-color: rgb(229, 232, 233);
+    margin-left:10px;
+}
+/*
+.box3x0{
+    
+    width:220px;
+    height:80px;
+    border-radius: 8px;
+    background-color:  ;
+    float:left;
+
+}
+.box3x1{
+    margin-left: 70px;
+    width:230px;
     height:80px;
     border-radius: 10px;
     background-color:  rgb(229, 232, 233);
     display:inline-block;
 
 }
-.box3x1{
-    margin-left:15px;
-    width:220px;
-    height:80px;
-    border-radius: 10px;
-    background-color:  rgb(229, 232, 233);
-    display:inline-block;
-}
 .box3x2{
     margin-left:15px;
-    width:220px;
+    width:230px;
     height:80px;
     border-radius: 10px;
     background-color: rgb(229, 232, 233);
@@ -298,7 +320,7 @@ ul{
 }
 .box3x3{
     margin-left:15px;
-    width:220px;
+    width:230px;
     height:80px;
     border-radius: 10px;
     background-color:  rgb(229, 232, 233);
@@ -306,13 +328,31 @@ ul{
 }
 .box3x4{
     margin-left:15px;
-    width:220px;
+    width:230px;
     height:80px;
     border-radius: 10px;
     background-color:  rgb(229, 232, 233);
     display:inline-block;
 
 
+}
+*/
+.image{
+    float:left;
+    width:60px;
+    height:60px;
+    
+   
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.text{
+    float:left;
+    width:140px;
+    height:80px;
+    
+    
+   
 }
 /*职场提升部分*/
 .box4xx{
@@ -353,15 +393,86 @@ ul{
     margin-left:20px;
 }
 /*新上好课部分*/
-.box5{
+.new-course{
+    width:100vm;
     height:700px;
+   
+    padding:0;
+    margin:0;
+}
+.new-course-menu{
+    width:400px;
+    height:100px;
+    
+   
     
 }
 .box5x0{
     margin-left:70px;
-    margin-top:70px;
     width:100px;
+    
 }
+.new-course-classify{
+    width:1250px;
+    height:570px;
+    margin-left: 50px;
+   
+}
+
+.course{
+    width:275px;
+    height:280px;
+    float:left;
+    margin-left: 20px;
+    
+}
+.new-course-image{
+    position:relative;
+    width:270px;
+    height:150px;
+    
+    padding:0;
+    margin:0;
+}
+
+.label{
+    position:absolute;
+    width:270px;
+    height:20px;
+    z-index:2;
+    left:5px;;
+    bottom:5px;
+    border-radius: 6px;
+}
+.course-introduce{
+    width:270px;
+    height:60px;
+    margin:0;
+    padding:0;
+    
+}
+.price-and-grade{
+    width:270px;
+    height:50px;
+   
+}
+.new-course-grade{
+    width:270px;
+    height:20px;
+    font-size: 12px;
+    color:gray;
+}
+.new-course-price{
+    width:270px;
+    height:20px;
+    font-size: 14px;
+    font-weight: 900;
+    color:red;
+}
+.course a{
+    color:#000;
+}
+/*
 .box5x1{
     width:270px;
     height:300px;
@@ -423,11 +534,14 @@ ul{
     float:left;
 
 }
+
 /*学习路线*/
-.box6{
-    width:1300px;
-    height:1000px;
+.learn{
+    width:100vm;
+    height:800px;
+    border:solid;
 }
+
 .menu1{
     float:left;
     height:70px;
@@ -438,7 +552,7 @@ ul{
 }
 .menu{
     float:left;
-    width:600px;
+    width:1000px;
     height:50px;
     margin-top: 15px;
     
@@ -456,22 +570,8 @@ ul{
     text-align:center;
     margin-left:5px;
 }
-/*
-.menu a:link,a:visited
-{
-	font-weight:bold;
-	color:#FFFFFF;
-	background-color:#98bf21;
-	text-align:center;
-	padding:6px;
-	text-decoration:none;
-	text-transform:uppercase;
-}
-.menu a:hover,a:active
-{
-	background-color:#7A991A;
-}*/
-#box6x0{
+
+.learn-road{
     float:left;
     height:800px;
     margin-top:100px;
@@ -486,30 +586,40 @@ ul{
     
 
 }
-.boxx3{
-    float:left;
-   
+.road-image{
     width:170px;
     height:170px;
-    
-
+    float:left;
 }
-.boxx2{
+.road-text{
     float:left;
     width:330px;
     height:200px;
     
 }
+.road-introduce{
+    width:300px;
+    height:100px;
+
+}
+.road-collect{
+    width:200px;
+    height:50px;
+    font-size:12px;
+    color:gray;
+}
+
 /*热门课程*/
 .hot-whole{
     width: 100vm;
     height:900px;
-   
+   border:solid;
+   margin-top: 10px;
 
 }
 
 .hot-menu-container{
-    
+    border:1px solid;
     width:500px;
     height:100px;
     margin-top: 20px;
@@ -520,16 +630,30 @@ ul{
 }
 .hot-text{
     float:left;
-    width:100px;
+    width:200px;
     height:80px;
+    border:1px solid;
+    
+}
+.hot-img{
+    float:left;
+    width:50px;
+    height:70px;
+    margin-left:5px;
+    border:1px solid;
+}
+.hot-text1{
+    float:left;
+    width:100px;
+    height:70px;
+    border:1px solid;
     
 }
 .hot-menu{
     float:left;
     width:200px;
-    height:50px;
-    margin-top: 20px;
-    margin-left: 100px;
+    height:80px;
+    border:1px solid;
    
 }
 .hot-menu>ul{
@@ -580,4 +704,137 @@ ul{
 .practice-text{
     width:250px;
     height:50px;
+}
+/*慕课课程*/
+.mooc-column{
+    width:100vm;
+    height:600px;
+   
+
+}
+.column-menu{
+    width:200px;
+    height:60px;
+    margin-left: 70px;
+   
+}
+.column-container{
+    width:1250px;
+    height:600px;
+    margin-left: 50px;
+   
+
+}
+.column{
+    float:left;
+    width:380px;
+    height:180px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+   
+
+}
+.column-image{
+    float:left;
+    width:110px;
+    height:170px;
+    margin-left: 10px;
+    padding-left:10px;
+    
+}
+.column-text{
+    float:left;
+    width:220px;
+    height:170px;
+    margin-left: 5px;
+    
+
+}
+.column-image>image{
+    width:100px;
+    height:150px;
+    margin-top: 20px;
+   
+    padding:0px;
+    border:0px;
+   
+
+}
+.try{
+    width:35px;
+    height:20px;
+   
+}
+.column-text a{
+    color:#000;
+}
+.text1-column{
+    width:215px;
+    height:45px;
+    padding:0px;
+   
+    
+    
+
+}
+.text2-column{
+    width:215px;
+    height:30px;
+    border-bottom: 1px solid #A6A6A6;
+    
+}
+.text3-column{
+    width:215px;
+    height:30px;
+    margin-top: 5px;
+   
+   
+}
+.text4-column{
+    width:215px;
+    height:40px;
+   
+}
+.foot{
+    width:100vm;
+    height:150px;
+    background-color: #f7f7f7ec;
+    padding:0px;
+    
+    border-top: 1px solid #eeeeee;
+    
+}
+.foot-left{
+    float:left;
+    width:800px;
+    height:100px;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+
+.foot-right{
+    float:right;
+    width:300px;
+    height:100px;
+    margin-top: 20px;
+    margin-right: 40px;
+   
+}
+.weixin{
+    float:left;
+    width:70px;
+    height:70px;
+    margin-left:40px;
+    margin-top: 20px;
+   
+}
+.weibo{
+    float:left;
+    width:70px;
+    height:70px;
+    margin-left:30px;
+    margin-top: 20px;
+    
 }
