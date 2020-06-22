@@ -573,11 +573,8 @@ ul{
 
 .learn-road{
     float:left;
-    height:800px;
     margin-top:100px;
     margin-left:70px;
-   
-
 }
 .box{
     float:left;
@@ -611,7 +608,6 @@ ul{
 
 /*热门课程*/
 .hot-whole{
-    width: 100vm;
     height:900px;
    border:solid;
    margin-top: 10px;
@@ -620,14 +616,12 @@ ul{
 
 .hot-menu-container{
     border:1px solid;
-    width:500px;
+    width:1000px;
     height:100px;
     margin-top: 20px;
     margin-left: 70px;
-    
-
-
 }
+
 .hot-text{
     float:left;
     width:200px;
@@ -652,7 +646,7 @@ ul{
 .hot-menu{
     float:left;
     width:200px;
-    height:80px;
+    height:50px;
     border:1px solid;
    
 }
