@@ -122,6 +122,8 @@ ul{
  .box2x1{
      width:200px;
      margin:20px;
+     float:left;
+     
  }   
  .box2x1x0{
      float:left;
@@ -263,6 +265,21 @@ ul{
     border-top:10px solid transparent;
     border-left:10px solid rgb(143, 139, 139);
     border-bottom:10px solid transparent;
+
+}
+/*广告部分*/
+.advertising .banner{
+    width:800px;
+    height:340px;
+    border:1px solid red;
+    float:left;
+    position:relative;
+    padding:0;
+
+}
+
+a:link a:visited{
+    color:#000;
 
 }
 /*零基础就业部分*/
