@@ -137,6 +137,7 @@ ul{
  /*中间部分的左边*/
 
  .advertising-menu{
+     position: relative;
      width:220px;
      height:320px;
      float:left;
@@ -162,7 +163,6 @@ ul{
  }
  .box2x1x1{
      float:right;
-     position:relative;
      background-color: rgb(100,100,100);
 
  }
@@ -302,8 +302,6 @@ ul{
 .horizontal-menu{
     width:200px;
     height:40px;
-    
-    position: relative;
     display:block;
     transition:0.5s;
     z-index:9999;
@@ -332,11 +330,12 @@ ul{
     
     
 }
-.horizon:hover .horizontal-lower-menu{
-    left:210px;
-    top:-17px;
+.horizontal-menu:hover .horizontal-lower-menu{
+    position: absolute;
+    left:220px;
+    top:-10px;
     display:block;
-    
+    z-index: 99;
 
 }
 .horizon:hover .horizontal2{
@@ -953,7 +952,8 @@ ul{
 }
 /*盒子鼠标凸起加阴影*/
 .column:hover{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    transform: translateY(-15px);
     box-shadow: 0 0 10px 2px #918f8f;
     transition:all 0.5s;
 }
