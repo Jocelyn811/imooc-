@@ -539,7 +539,7 @@ ul{
 .learn{
     width:100vm;
     height:800px;
-    border:solid;
+    
 }
 
 .menu1{
@@ -573,6 +573,10 @@ ul{
 
 .learn-road{
     float:left;
+<<<<<<< HEAD
+=======
+    /*height:800px;*/
+>>>>>>> 7eedba4... base.css
     margin-top:100px;
     margin-left:70px;
 }
@@ -609,14 +613,19 @@ ul{
 /*热门课程*/
 .hot-whole{
     height:900px;
-   border:solid;
+   
    margin-top: 10px;
 
 }
 
 .hot-menu-container{
+<<<<<<< HEAD
     border:1px solid;
     width:1000px;
+=======
+    
+    width:500px;
+>>>>>>> 7eedba4... base.css
     height:100px;
     margin-top: 20px;
     margin-left: 70px;
@@ -626,7 +635,7 @@ ul{
     float:left;
     width:200px;
     height:80px;
-    border:1px solid;
+    
     
 }
 .hot-img{
@@ -634,21 +643,37 @@ ul{
     width:50px;
     height:70px;
     margin-left:5px;
-    border:1px solid;
+    
+}
+.hot-img i{
+    display:block;
+    width:60px;
+    text-align: center;
+    height:60px;
+    line-height: 75px;
+    
+    color:#b9b9b9;
+    font-size: 20px;
 }
 .hot-text1{
     float:left;
     width:100px;
     height:70px;
-    border:1px solid;
+    
     
 }
 .hot-menu{
     float:left;
     width:200px;
+<<<<<<< HEAD
     height:50px;
     border:1px solid;
    
+=======
+    height:80px;
+    
+    padding-top:20px;
+>>>>>>> 7eedba4... base.css
 }
 .hot-menu>ul{
     list-style-type:none;
@@ -682,22 +707,59 @@ ul{
 */
 .practice{
     float:left;
-    width:270px;
+    width:280px;
     height:300px;
     margin-left: 20px;
     margin-top: 10px;
     
 }
 .practice-picture{
+    position:relative;
     width:280px;
     height:155px;
     padding:0;
     border:0;
     
 }
+.practice-label{
+    position:absolute;
+    width:270px;
+    height:20px;
+    z-index:2;
+    left:10px;;
+    bottom:10px;
+    border-radius: 6px;
+}
 .practice-text{
     width:250px;
+    height:65px;
+    
+    
+}
+.practice a{
+    color:#000;
+}
+/*
+.price-and-grade{
+    width:270px;
     height:50px;
+   
+}
+.new-course-grade{
+    width:270px;
+    height:20px;
+    font-size: 12px;
+    color:gray;
+}
+.new-course-price{
+    width:270px;
+    height:20px;
+    font-size: 14px;
+    font-weight: 900;
+    color:red;
+}
+.course a{
+    color:#000;
 }
 /*慕课课程*/
 .mooc-column{
@@ -818,11 +880,31 @@ ul{
 }
 .weixin{
     float:left;
-    width:70px;
-    height:70px;
+    width:120px;
+    height:120px;
     margin-left:40px;
     margin-top: 20px;
    
+}
+.weixin i{
+    display:block;
+    width:60px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+    background: #f7f7f7ec;
+    color:#b9b9b9;
+    font-size: 20px;
+}
+.weibo i{
+    display:block;
+    width:60px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+    background:  #f7f7f7ec;
+    color:#b9b9b9;
+    font-size: 20px;
 }
 .weibo{
     float:left;
@@ -831,4 +913,47 @@ ul{
     margin-left:30px;
     margin-top: 20px;
     
+}
+.aside-menu{
+    position:fixed;
+    top:40%;
+    z-index:99999;
+    right:0;
+
+}
+.aside-icon{
+    cursor:pointer;
+    position:relative;
+}
+.aside-icon i{
+    display:block;
+    width:60px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+    background: #f1f1f1;
+    color:#b9b9b9;
+    font-size: 20px;
+    transition: 0.6s;
+
+}
+.aside-icon:hover i{
+    color:#3498db;
+}
+.icon-text{
+    position:absolute;
+    height:60px;
+    width:60px;
+    background: #eeeded;
+    top:0;
+    z-index:-1;
+    right:-70px;
+    color:#fff;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.6s;
+
+}
+.aside-icon:hover .icon-text{
+    right:60px;
 }
