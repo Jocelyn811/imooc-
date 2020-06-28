@@ -40,7 +40,7 @@ ul{
  }
  .navbar-item li a{
     display: block;
-    padding: 0 20px;
+    padding: 0 10px;
     color: #4D555D;
     text-align: center;
     font-size: 16px;
@@ -103,26 +103,57 @@ ul{
  .navbar-right{
      float: right!important;
      margin-right: 50px;
+    
  }
+ .shopping{
+     width:100px;
+     height:30px;
+     border-radius: 15px;
+     border:1px solid #000;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
  /*中间部分菜单及广告位*/
+ .adv{
+     width:100vm;
+     height:380px;
+     margin-top:100px;
+     padding:0;
+ }
  .box2{
-     width:80%;
+     width:1100px;
      height:350px;
      margin-left:150px;
      margin-top:100px;
-     padding-top: 30px;
-     padding-left:10px;
-     border:1px,solid;
+     
+     padding:0;
+     
      border-radius:10px;
      background-color: rgb(31, 32, 32);
  }
      
  
  /*中间部分的左边*/
+
+ .advertising-menu{
+     width:220px;
+     height:320px;
+     float:left;
+     
+     margin-top:10px;
+     margin-left: 10px;
+     padding-left: 10x;
+ }
  .box2x1{
      width:200px;
-     margin:20px;
+     height:310px;
+     margin:0px;
      float:left;
+     
+     padding:0;
+     margin-left: 5px;
+     margin-top: 5px;
      
  }   
  .box2x1x0{
@@ -139,11 +170,12 @@ ul{
     position:absolute;
     width:0px;
     height:0px;
+    margin-top: 5px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 
 }
@@ -161,10 +193,10 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
 .box2x1x4{
@@ -181,10 +213,10 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
 .box2x1x6{
@@ -201,10 +233,10 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
 .box2x1x8{
@@ -221,10 +253,10 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
 .box2x1x10{
@@ -241,10 +273,10 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
 .box2x1x12{
@@ -261,27 +293,148 @@ ul{
     width:0px;
     height:0px;
     content:" ";
-    border-right: 10px solid transparent;
-    border-top:10px solid transparent;
-    border-left:10px solid rgb(143, 139, 139);
-    border-bottom:10px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:8px solid transparent;
+    border-left:8px solid rgb(143, 139, 139);
+    border-bottom:8px solid transparent;
 
 }
+.horizontal-menu{
+    width:200px;
+    height:40px;
+    
+    position: relative;
+    display:block;
+    transition:0.5s;
+    z-index:9999;
+    cursor: pointer;
+
+}
+.horizontal-menu:hover{
+    background-color: #b4b3b3;
+    
+
+}
+.horizontal-menu:hover>span{
+    color:#fff;
+}
+.horizontal-lower-menu{
+    display:none;
+    position: absolute;
+    top:0;
+    width:700px;
+    height:350px;
+    background-color: aliceblue;
+    z-index:-1;
+    transition:0.5s;
+    
+    float:initial;
+    
+    
+}
+.horizon:hover .horizontal-lower-menu{
+    left:210px;
+    top:-17px;
+    display:block;
+    
+
+}
+.horizon:hover .horizontal2{
+    left:210px;
+    top:-17px;
+    display:block;
+    
+
+}
+
+.lower-menu-topic{
+    width:200px;
+    height:50px;
+    
+    color:#000;
+    margin-left: 20px;
+}
+.lower-menu-option{
+    width:690px;
+    height:150px;
+   
+}
+.menu-item{
+    float:left;
+    list-style: none;
+    height:145px;
+}
+.menu-item li{
+    float:left;
+    padding: 0px 7px;
+    font-size:13px;
+    color:#000;
+    margin-left: 13px;
+}
+.lower-menu-img{
+    width:680px;
+    height:140px;
+   
+
+}
+.lower-menu-classify{
+    float:left;
+    width:320px;
+    height:70px;
+    padding:0px;
+   
+    margin-left: 10px;
+}
+.lower-menu-pictrue{
+    float:left;
+    width:80px;
+    height:60px;
+  
+}
+.lower-menu-pictrue img{
+    width:70px;
+    height:50px;
+    border-radius: 4px;
+}
+.lower-menu-text{
+    float:left;
+    width:230px;
+    height:70px;
+    
+    padding:0;
+    margin:0;
+}
+.lower-text{
+    width:230px;
+    height:30px;
+    padding:0;
+    margin:0;
+    color:#000;
+    font-size:14px;
+    font-weight:900;
+}
+.lower-introduce{
+    width:230px;
+    height:35px;
+    padding:0;
+    margin:0;
+    color:#797979;
+    font-size: 12px;
+}
+
 /*广告部分*/
-.advertising .banner{
-    width:800px;
-    height:340px;
-    border:1px solid red;
+.advertising{
+    width:867px;
+    height:350px;
+    border:0;
     float:left;
     position:relative;
     padding:0;
-
+    margin:0;
+    
 }
 
-a:link a:visited{
-    color:#000;
 
-}
 /*零基础就业部分*/
 .zero-base{
     width:100vm;
@@ -796,8 +949,13 @@ a:link a:visited{
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 8px;
-   
-
+    
+}
+/*盒子鼠标凸起加阴影*/
+.column:hover{
+    margin-top: 15px;
+    box-shadow: 0 0 10px 2px #918f8f;
+    transition:all 0.5s;
 }
 .column-image{
     float:left;
@@ -955,11 +1113,11 @@ a:link a:visited{
     background: #eeeded;
     top:0;
     z-index:-1;
-    right:-80px;
-    color:rgb(134, 134, 134);
+    color:rgb(2, 2, 2);
     line-height: 60px;
     text-align: center;
     transition: 0.6s;
+    font-size:12px;
 
 }
 .aside-icon:hover .icon-text{
