@@ -388,7 +388,6 @@ ul{
 .menu-item{
     float:left;
     list-style: none;
-    height:145px;
 }
 .menu-item li{
     float:left;
